@@ -108,7 +108,7 @@ The `struct dirent *` returned by `readdir()` has the following fields in it:
 ```c
 struct dirent {
   ino_t  d_ino       // file serial number
-  char   d_name[]    // file name, a string
+****  char   d_name[]    // file name, a string
 };
 ```
 
